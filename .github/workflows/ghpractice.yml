@@ -1,0 +1,13 @@
+name: Github Actions Practice
+on: workflow_dispatch
+jobs:
+  practice-first:
+    runs-on: unbuntu-latest
+    steps:
+      - name: Print Hello world
+        run: echo "Hello World!"
+      - name: Print Practice is going on
+        run: echo "Practice started"
+      - name: Print the end of workflow
+        run: echo "Practice end - Goodbye!!!"
+  
