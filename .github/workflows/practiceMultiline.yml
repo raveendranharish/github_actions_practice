@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: printing multiline commands
-      - run: |
+        run: |
           echo "Hello all"
           echo "I'm practicing github actions"
           echo "thank you"
