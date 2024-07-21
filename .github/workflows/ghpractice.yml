@@ -2,7 +2,7 @@ name: Github Actions Practice
 on: workflow_dispatch
 jobs:
   practice-first:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print Hello world
         run: echo "Hello World!"
