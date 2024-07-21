@@ -1,0 +1,11 @@
+name: MultiLine Command practice
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing multiline commands
+      - run: |
+          echo "Hello all"
+          echo "I'm practicing github actions"
+          echo "thank you"
